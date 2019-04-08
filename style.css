@@ -1,0 +1,231 @@
+-  body{ 
+height:auto;
+}
+
+img.background { 
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:-100;
+  }
+
+/* Logo */
+div.top{  
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:300px;
+  background-color: black;
+  z-index:2;
+  max-height:35%;
+}
+div.logo1 {
+   background-color:black;
+   background-repeat: no-repeat;
+  
+}
+div.logo1:hover {
+   background-image: url("http://gdurl.com/F560");
+   background-repeat: no-repeat;
+   background-size: 93% 100%;
+}
+
+p.logo2{
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+   margin:0;
+ 
+}
+img.logo3{
+   height: 189px;
+   transition: transform 2s;
+}
+img.logo3:hover {
+   -webkit-transform: rotate(-360deg); /* Safari */
+  transform: rotate(-360deg);
+}
+/* logo */
+
+/* Buttons */
+div.bttn{
+  width:100%;
+    margin:0;
+    border:none;
+    padding:0px;
+    background-color:black;
+    height:75px;
+    position:fixed;
+    top:200px;
+    left:0;
+    max-height:80px;
+  z-index:4;
+}
+
+button {
+    text-decoration:none;
+    width:100%;
+    height:100%;
+    border:none;
+    background-color:inherit;
+    color:white;
+    padding:10px;
+    font-size:25px;
+    font-family:helvetica;
+}
+
+button:hover{
+    background-color:white;
+    color:black;
+    transition: all .7s;
+    box-shadow: 2px 1px 22px 7px black;
+    font-size:38px;
+    height:100%;
+    padding:10px 0px 10px;
+    cursor:pointer;
+
+}
+    
+table{
+    width:100%;
+    margin:0;
+    border:none;
+    padding:0px;
+    background-color:inherit;
+    height:75px;
+    position:;
+    top:0;
+    left:0;
+    max-height:80px;
+}
+
+th{
+    padding:0;
+    border:none;
+    background-color:inherit;
+}
+/*Buttons*/
+
+div.header{
+  
+}
+div.team{
+  position: absolute;
+  left:10%;
+  z-index:0;
+  width:475px;
+  height:800px;
+  top:310px;
+  margin:0px;
+  padding:0px;
+  max-width: 30%;
+  color:white;
+  font-size:25px;
+  text-align:center;
+}
+
+div.team1{
+  width: 90%;
+ 
+  
+}
+
+img.team1{
+  width: 100%;
+}
+
+div.team2{
+  width: 90%;
+}
+img.team2 {
+  width: 100%;
+}
+div.about{ 
+  position: relative;
+  left: 40%;
+  z-index:1;
+  width:800px;
+  height:800px;
+  top:280px;
+  z-index:0;
+  margin:0px;
+  padding:0px;
+  max-width: 68%;
+  
+}
+iframe.about{
+  width:100%;
+  position:center;
+  height:100%;
+  
+}
+H1.class Ab{
+  
+}
+
+p.main{
+  
+}
+iframe.roster1{
+  width:100%;
+  height:100%;
+  
+}
+div.roster{
+   position: absolute;
+  left: 21%;
+  z-index:1;
+  width:800px;
+  height:800px;
+  top:280px;
+  z-index:0;
+  margin:0px;
+  padding:0px;
+  max-width: 68%;
+}
+iframe.roster2{ 
+  width:100%;
+  height:100%;
+}
+
+iframe.shop {
+  height:1000px;
+  width:1000px;
+  position: absolute;
+  top: ;
+  left:50px;
+}
+{
+  height:300px;
+  width:300px;
+}
+.one{
+  height:250px;
+  width:250px;
+}
+.pic{
+  position:absolute;
+  top:265px;
+}
+  iframe.acc{
+    height:100%;
+      width:80%;
+    position:absolute;
+    top:250px; 
+  margin: auto;
+  border: 3px white;
+  padding: 10px;
+  left:10%;
+  }
+.center{
+  
+}
+.game{
+position:absolute;
+  top:1210px;
+   border: 3px white;
+  padding: 10px;
+  left:50%;
+}
